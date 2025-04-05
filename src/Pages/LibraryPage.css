@@ -1,0 +1,48 @@
+/* src/pages/LibraryPage.css */
+.library-container {
+    min-height: calc(100vh - 72px);
+  }
+  
+  .library-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-text {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .library-stats {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .stats-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .game-card {
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .library-card-img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .game-genres {
+    min-height: 28px;
+  }
